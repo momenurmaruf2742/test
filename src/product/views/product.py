@@ -1,7 +1,7 @@
 from django.views import generic
 
 from product.models import Variant
-
+from product.models import Product
 
 class CreateProductView(generic.TemplateView):
     template_name = 'products/create.html'
